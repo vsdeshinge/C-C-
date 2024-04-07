@@ -1,42 +1,27 @@
 #include<iostream>
-#include<string>
-
 using namespace std;
-
-string reverseWords(string s) {
-    int start=0;
-    int end=s.length()-1;
-    cout<<end;
-    
-    while (start<=end)
-
-    {
-        if((s[start] ==' ')&& (s[(start+1)] ==' ' )){
-            s.erase(s.begin()+start);
-            start++;
-            end--;
-            
-        }
-        if((s[end] ==' ')&& (s[(end-1)] ==' ' )){
-            s.erase(s.begin()+end);
-            end--;
-            
-        }
-        cout<<s<<endl;
-        swap(s[start++], s[end--]);
-        
-    }
-
-    return s;
-    
-     
-     
-        
-    }
-
-
-
-int main(){
-    string s = "a  ab";
-    cout<<reverseWords(s);
+class Test{ 
+    const double x; //LINE-1
+public:
+Test (double _x) : x(_x) {}
+void set(double a) const{
+x = a;
 }
+void print() const{
+cout << x << endl;
+}
+};
+int main(){
+
+
+    int r;
+     scanf("%d",&r);
+     int unit;
+     scanf
+
+
+
+
+return 0;
+}
+

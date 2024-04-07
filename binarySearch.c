@@ -21,4 +21,4 @@ int compare(
         printf("found!\n");
     else
         printf("not found\n");
-}
+} 
